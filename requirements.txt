@@ -1,0 +1,12 @@
+# Requirements file for deploying the Employee Attrition Prediction App
+
+# Machine Learning Libraries
+# The scikit-learn version is critical for loading the joblib pipeline correctly.
+# Keep sklearn pinned; update numpy/pandas to versions with Python 3.13 wheels.
+scikit-learn==1.6.1
+numpy==2.1.3
+pandas==2.2.3
+
+# Deployment and Utility Libraries
+streamlit==1.36.0
+joblib==1.4.2
